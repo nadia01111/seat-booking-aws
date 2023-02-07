@@ -10,7 +10,8 @@ const Header =() => {
 
   return (
   <Wrapper>
-  <Logo><h1>Sling Airlines</h1></Logo>
+
+  <Nav to="/"><Logo><h1>Sling Airlines</h1></Logo></Nav>
   <Nav> {reservationNumber&&<StyledNavLink to="/view-reservation">Reservation</StyledNavLink>}
   </Nav>
   </Wrapper>)
